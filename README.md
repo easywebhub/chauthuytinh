@@ -12,7 +12,15 @@ npm run build --production // build chế độ production
 npm run watch --production // watch chế độ production
 ```
 
-Đây là base đơn giản metalsmith, mọi cấu hình đều nằm trong file site.js
+#### Triển khai thực tế, với việc sử dụng github.com
+
+ 1. Kiểm tra website hoạt động đúng mong muốn dưới máy cá nhân (run   ```npm run wath``` để review)
+ 2. Copy toàn bộ nội dung của thư mục /build vào thư mục __PUBLIC
+ 3. Click vào file  Public_gh-pages.bat để đẩy lên github.com,  có thể điền user/pass của github
+ 4. Kiểm tra việc thay đổi trên domain chính chauthuytinh.easywebhub.com
+
+
+### Đây là base đơn giản metalsmith, mọi cấu hình đều nằm trong file site.js
 #### Cấu hình các đường dẫn
 ```js
 const site = {
