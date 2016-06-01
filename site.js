@@ -21,7 +21,7 @@ const site = {
         title: "Baotnq điều chỉnh",
         description: "Good morning",
         generator: "EasyWeb Metalsmith",
-        ref_domain: "http://handy.themes.zone",
+        ref_domain: "http://localhost:8088",
         author: "arimal Satyal",
         keywords: "Neustadt, parimalsatyal, Parimal Satyal"
       }
@@ -88,9 +88,9 @@ site.metalsmith = {
     'metalsmith-collections':   {
         '_enable': true,
         'items':   {
-            'pattern': 'content/items/*.md',
+            'pattern': 'items/**/*.html',
             'sortBy':  'date',
-            'reverse': true
+            'reverse': true,
         }
     },
     'metalsmith-pagination':    {
