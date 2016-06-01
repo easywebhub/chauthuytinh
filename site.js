@@ -21,7 +21,7 @@ const site = {
         title: "Baotnq điều chỉnh",
         description: "Good morning",
         generator: "EasyWeb Metalsmith",
-        ref_domain: "http://localhost:8088",
+        ref_domain: "http://chauthuytinh.easywebhub.com",
         author: "arimal Satyal",
         keywords: "Neustadt, parimalsatyal, Parimal Satyal"
       }
